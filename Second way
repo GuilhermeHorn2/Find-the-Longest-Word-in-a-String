@@ -1,4 +1,4 @@
 function findLongestWordLength(str) {
   return Math.max(...str.split(" ").map(word => word.length));
 }
-/* (...str.split(" ").map(word => word.length) this will output an array with the length of all words in teh string */
+/* (...str.split(" ").map(word => word.length) this will output  the length of all words in teh string */
